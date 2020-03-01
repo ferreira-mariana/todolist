@@ -1,2 +1,3 @@
 # To Do List
-to do list based on [rocketseat](https://rocketseat.com.br/)'s tutorial.
+To do list based on [rocketseat](https://rocketseat.com.br/)'s tutorial.
+Click [here](https://ferreira-mariana.github.io/todolist) to see.
