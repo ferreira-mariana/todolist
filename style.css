@@ -1,0 +1,128 @@
+/*reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+/*fonts*/
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/Open_Sans/OpenSans-Regular.ttf")
+}
+@font-face {
+    font-family: "Amatic SC";
+    src: url("fonts/Amatic_SC/AmaticSC-Regular.ttf")
+}
+
+/*style*/
+
+.container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10vh 0;
+    max-width: 300px;
+}
+
+body {
+    background: #fafafa;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Amatic SC';
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#app, input, button {
+    font-family: 'Open Sans';
+}
+
+input, button {
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+input {
+    width: 230px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-weight: 900;
+    cursor: pointer;
+    background-color: #C20000;
+    color: #fafafa;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #D9290B;
+    transition: 0.2s;
+}
+
+ul li {
+    margin: 12px 0;
+    position: relative;
+}
+
+.check {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.check:hover {
+    border: 1px solid #C20000;
+}
+
+.check:active {
+    border: 1px solid #C3DA8C;
+    background-color: #C3DA8C;
+}
+
+p {
+    margin-left: 24px;
+    max-width: 230px;
+}
