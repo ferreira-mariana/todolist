@@ -1,2 +1,2 @@
-# todolist
-lista de tarefas que aprendi no tutorial da https://rocketseat.com.br/
+# To Do List
+to do list based on [rocketseat](https://rocketseat.com.br/)'s tutorial.
